@@ -1,0 +1,26 @@
+### Create category
+POST http://localhost:8080/categories
+Content-Type: application/json
+
+{
+  "name": "Books",
+  "description": "Books and printed media"
+}
+
+### Get category by id
+GET http://localhost:8080/categories/1
+
+### Get all categories
+GET http://localhost:8080/categories
+
+### Update category
+PUT http://localhost:8080/categories/1
+Content-Type: application/json
+
+{
+  "name": "Books",
+  "description": "Books, magazines, and printed media"
+}
+
+### Delete category
+DELETE http://localhost:8080/categories/1

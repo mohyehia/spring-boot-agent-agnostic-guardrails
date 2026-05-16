@@ -1,0 +1,4 @@
+#
+#Sat May 16 17:47:40 EEST 2026
+methods\ that\ are\ annotated\ with\ @Cacheable\ should\ not\ be\ called\ from\ within\ the\ same\ class=be58ba1f-eafd-4d13-9691-f9ba0899343b
+methods\ that\ are\ annotated\ with\ @GetMapping\ should\ log=3c3c02be-e6c9-4503-874e-d24e73cdc6bf
